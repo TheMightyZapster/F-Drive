@@ -1,0 +1,11 @@
+﻿category,author,title,series_or_edition,year,language,scope_or_notes,filename
+Text,NA Committee,Nestle-Aland 28,28th,2012,grc,Text+apparatus,
+Text,BHS Committee,Biblia Hebraica Stuttgartensia,,1997,heb,Text only,
+Lexicon,Danker,BDAG,3rd,2000,grc,Upload key lemmas only,
+Lexicon,Koehler-Baumgartner,HALOT,,1994-2000,heb/arc,Upload key lemmas only,
+Grammar,Wallace,Greek Grammar Beyond the Basics,,1993,grc,Full volume,
+Grammar,Waltke-O'Connor,Introduction to Biblical Hebrew Syntax,,1990,heb,Full volume,
+TextualCriticism,Metzger,Textual Commentary on the GNT,2nd,1994,grc,Full volume,
+Discourse,Runge,Discourse Grammar of the GNT,,2010,grc,Chapters on emphasis/particles,
+Background,Freedman,Anchor Yale Bible Dictionary,,1992,eng,Only relevant articles,
+Commentary,Various,NICNT: Romans,,1996,eng,Active project only,

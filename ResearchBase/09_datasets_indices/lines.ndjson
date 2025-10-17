@@ -1,0 +1,455 @@
+﻿
+{"ln":1,"path":"F:\\F Drive\\ResearchBase\\manifest.csv","text":"category,author,title,series_or_edition,year,language,scope_or_notes,filename"}
+{"ln":2,"path":"F:\\F Drive\\ResearchBase\\manifest.csv","text":"Text,NA Committee,Nestle-Aland 28,28th,2012,grc,Text+apparatus,"}
+{"ln":3,"path":"F:\\F Drive\\ResearchBase\\manifest.csv","text":"Text,BHS Committee,Biblia Hebraica Stuttgartensia,,1997,heb,Text only,"}
+{"ln":4,"path":"F:\\F Drive\\ResearchBase\\manifest.csv","text":"Lexicon,Danker,BDAG,3rd,2000,grc,Upload key lemmas only,"}
+{"ln":5,"path":"F:\\F Drive\\ResearchBase\\manifest.csv","text":"Lexicon,Koehler-Baumgartner,HALOT,,1994-2000,heb/arc,Upload key lemmas only,"}
+{"ln":6,"path":"F:\\F Drive\\ResearchBase\\manifest.csv","text":"Grammar,Wallace,Greek Grammar Beyond the Basics,,1993,grc,Full volume,"}
+{"ln":7,"path":"F:\\F Drive\\ResearchBase\\manifest.csv","text":"Grammar,Waltke-O\u0027Connor,Introduction to Biblical Hebrew Syntax,,1990,heb,Full volume,"}
+{"ln":8,"path":"F:\\F Drive\\ResearchBase\\manifest.csv","text":"TextualCriticism,Metzger,Textual Commentary on the GNT,2nd,1994,grc,Full volume,"}
+{"ln":9,"path":"F:\\F Drive\\ResearchBase\\manifest.csv","text":"Discourse,Runge,Discourse Grammar of the GNT,,2010,grc,Chapters on emphasis/particles,"}
+{"ln":10,"path":"F:\\F Drive\\ResearchBase\\manifest.csv","text":"Background,Freedman,Anchor Yale Bible Dictionary,,1992,eng,Only relevant articles,"}
+{"ln":11,"path":"F:\\F Drive\\ResearchBase\\manifest.csv","text":"Commentary,Various,NICNT: Romans,,1996,eng,Active project only,"}
+{"ln":12,"path":"F:\\F Drive\\ResearchBase\\manifest.csv","text":""}
+{"ln":1,"path":"F:\\F Drive\\ResearchBase\\README.md","text":"# ResearchBase"}
+{"ln":2,"path":"F:\\F Drive\\ResearchBase\\README.md","text":""}
+{"ln":3,"path":"F:\\F Drive\\ResearchBase\\README.md","text":"This workspace houses your original-languages research corpus (texts, lexicons, grammars, commentaries, discourse/syntax, journals, notes, and datasets)."}
+{"ln":4,"path":"F:\\F Drive\\ResearchBase\\README.md","text":""}
+{"ln":5,"path":"F:\\F Drive\\ResearchBase\\README.md","text":"## Quick Start"}
+{"ln":6,"path":"F:\\F Drive\\ResearchBase\\README.md","text":"1) Drop source texts in **00_texts** (e.g., SBLGNT, LXX, BHS/BHQ excerpts)."}
+{"ln":7,"path":"F:\\F Drive\\ResearchBase\\README.md","text":"2) Add lexicon excerpts to **01_lexicons** (e.g., BDAG/HALOT entries you actively cite)."}
+{"ln":8,"path":"F:\\F Drive\\ResearchBase\\README.md","text":"3) Keep grammars in **02_grammars** (Wallace, IBHS, etc.)."}
+{"ln":9,"path":"F:\\F Drive\\ResearchBase\\README.md","text":"4) For a current project, select 1–2 technical + 1 pastoral commentary in **03_commentaries** (OT/NT)."}
+{"ln":10,"path":"F:\\F Drive\\ResearchBase\\README.md","text":"5) Background dictionaries in **04_background_dictionaries** (AYBD, IVP), textual criticism in **05_textual_criticism**."}
+{"ln":11,"path":"F:\\F Drive\\ResearchBase\\README.md","text":"6) Discourse/syntax resources in **06_discourse_syntax**; journals in **07_journals**."}
+{"ln":12,"path":"F:\\F Drive\\ResearchBase\\README.md","text":"7) Export your Logos notes to **08_notes_highlights**."}
+{"ln":13,"path":"F:\\F Drive\\ResearchBase\\README.md","text":"8) Put CSV/JSON indices and RAG artifacts in **09_datasets_indices**."}
+{"ln":14,"path":"F:\\F Drive\\ResearchBase\\README.md","text":""}
+{"ln":15,"path":"F:\\F Drive\\ResearchBase\\README.md","text":"\u003e Licensing: include only public-domain, open-licensed, or your own notes/excerpts compliant with your licenses."}
+{"ln":16,"path":"F:\\F Drive\\ResearchBase\\README.md","text":""}
+{"ln":1,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"# 00 texts"}
+{"ln":2,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":""}
+{"ln":3,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"# Folder Guide"}
+{"ln":4,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":""}
+{"ln":5,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"- Purpose"}
+{"ln":6,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"- What belongs here"}
+{"ln":7,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"- Suggested sub-folders or prefixes"}
+{"ln":8,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"- Sample filenames"}
+{"ln":9,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":""}
+{"ln":10,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"**Naming:**"}
+{"ln":11,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"\u003cYYYY\u003e-\u003cAuthorSurname\u003e-\u003cShortTitle\u003e-\u003cEditionOrSeries\u003e-\u003cLangOrScope\u003e.\u003cext\u003e"}
+{"ln":12,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"Example: 1993-Wallace-GreekGrammarBeyondTheBasics-ExSyntax-GRC.pdf"}
+{"ln":13,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"\"@"}
+{"ln":14,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":""}
+{"ln":15,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":" = @\""}
+{"ln":16,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"# Large binaries"}
+{"ln":17,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"*.zip"}
+{"ln":18,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"*.7z"}
+{"ln":19,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"*.rar"}
+{"ln":20,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"*.tar"}
+{"ln":21,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"*.tar.gz"}
+{"ln":22,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"*.tgz"}
+{"ln":23,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"*.xz"}
+{"ln":24,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"*.zst"}
+{"ln":25,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":""}
+{"ln":26,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"# OS cruft"}
+{"ln":27,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":".DS_Store"}
+{"ln":28,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"Thumbs.db"}
+{"ln":29,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":""}
+{"ln":30,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"# Logs"}
+{"ln":31,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"*.log"}
+{"ln":32,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":""}
+{"ln":33,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"# Editor"}
+{"ln":34,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":".vscode/"}
+{"ln":35,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":".idea/"}
+{"ln":36,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":""}
+{"ln":37,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"# Python / notebooks (if you index here)"}
+{"ln":38,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":"__pycache__/"}
+{"ln":39,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":".ipynb_checkpoints/"}
+{"ln":40,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":".venv/"}
+{"ln":41,"path":"F:\\F Drive\\ResearchBase\\00_texts\\README.md","text":""}
+{"ln":1,"path":"F:\\F Drive\\ResearchBase\\00_texts\\Test-OL.txt","text":"This is a test file for the self-test."}
+{"ln":2,"path":"F:\\F Drive\\ResearchBase\\00_texts\\Test-OL.txt","text":"Rom 8:28 — πάντα συνεργεῖ εἰς ἀγαθόν."}
+{"ln":3,"path":"F:\\F Drive\\ResearchBase\\00_texts\\Test-OL.txt","text":"λόγος λόγου λόγῳ λόγον"}
+{"ln":4,"path":"F:\\F Drive\\ResearchBase\\00_texts\\Test-OL.txt","text":""}
+{"ln":1,"path":"F:\\F Drive\\ResearchBase\\00_texts\\Test.txt","text":"This is a test file."}
+{"ln":2,"path":"F:\\F Drive\\ResearchBase\\00_texts\\Test.txt","text":"Rom 8:28 — πάντα συνεργεῖ εἰς ἀγαθόν."}
+{"ln":3,"path":"F:\\F Drive\\ResearchBase\\00_texts\\Test.txt","text":"λόγος λογου λογῳ λογον"}
+{"ln":4,"path":"F:\\F Drive\\ResearchBase\\00_texts\\Test.txt","text":""}
+{"ln":1,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"# 01 lexicons"}
+{"ln":2,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":""}
+{"ln":3,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"# Folder Guide"}
+{"ln":4,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":""}
+{"ln":5,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"- Purpose"}
+{"ln":6,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"- What belongs here"}
+{"ln":7,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"- Suggested sub-folders or prefixes"}
+{"ln":8,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"- Sample filenames"}
+{"ln":9,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":""}
+{"ln":10,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"**Naming:**"}
+{"ln":11,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"\u003cYYYY\u003e-\u003cAuthorSurname\u003e-\u003cShortTitle\u003e-\u003cEditionOrSeries\u003e-\u003cLangOrScope\u003e.\u003cext\u003e"}
+{"ln":12,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"Example: 1993-Wallace-GreekGrammarBeyondTheBasics-ExSyntax-GRC.pdf"}
+{"ln":13,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"\"@"}
+{"ln":14,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":""}
+{"ln":15,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":" = @\""}
+{"ln":16,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"# Large binaries"}
+{"ln":17,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"*.zip"}
+{"ln":18,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"*.7z"}
+{"ln":19,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"*.rar"}
+{"ln":20,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"*.tar"}
+{"ln":21,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"*.tar.gz"}
+{"ln":22,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"*.tgz"}
+{"ln":23,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"*.xz"}
+{"ln":24,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"*.zst"}
+{"ln":25,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":""}
+{"ln":26,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"# OS cruft"}
+{"ln":27,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":".DS_Store"}
+{"ln":28,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"Thumbs.db"}
+{"ln":29,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":""}
+{"ln":30,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"# Logs"}
+{"ln":31,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"*.log"}
+{"ln":32,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":""}
+{"ln":33,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"# Editor"}
+{"ln":34,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":".vscode/"}
+{"ln":35,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":".idea/"}
+{"ln":36,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":""}
+{"ln":37,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"# Python / notebooks (if you index here)"}
+{"ln":38,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":"__pycache__/"}
+{"ln":39,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":".ipynb_checkpoints/"}
+{"ln":40,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":".venv/"}
+{"ln":41,"path":"F:\\F Drive\\ResearchBase\\01_lexicons\\README.md","text":""}
+{"ln":1,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"# 02 grammars"}
+{"ln":2,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":""}
+{"ln":3,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"# Folder Guide"}
+{"ln":4,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":""}
+{"ln":5,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"- Purpose"}
+{"ln":6,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"- What belongs here"}
+{"ln":7,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"- Suggested sub-folders or prefixes"}
+{"ln":8,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"- Sample filenames"}
+{"ln":9,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":""}
+{"ln":10,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"**Naming:**"}
+{"ln":11,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"\u003cYYYY\u003e-\u003cAuthorSurname\u003e-\u003cShortTitle\u003e-\u003cEditionOrSeries\u003e-\u003cLangOrScope\u003e.\u003cext\u003e"}
+{"ln":12,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"Example: 1993-Wallace-GreekGrammarBeyondTheBasics-ExSyntax-GRC.pdf"}
+{"ln":13,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"\"@"}
+{"ln":14,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":""}
+{"ln":15,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":" = @\""}
+{"ln":16,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"# Large binaries"}
+{"ln":17,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"*.zip"}
+{"ln":18,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"*.7z"}
+{"ln":19,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"*.rar"}
+{"ln":20,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"*.tar"}
+{"ln":21,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"*.tar.gz"}
+{"ln":22,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"*.tgz"}
+{"ln":23,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"*.xz"}
+{"ln":24,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"*.zst"}
+{"ln":25,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":""}
+{"ln":26,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"# OS cruft"}
+{"ln":27,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":".DS_Store"}
+{"ln":28,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"Thumbs.db"}
+{"ln":29,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":""}
+{"ln":30,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"# Logs"}
+{"ln":31,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"*.log"}
+{"ln":32,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":""}
+{"ln":33,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"# Editor"}
+{"ln":34,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":".vscode/"}
+{"ln":35,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":".idea/"}
+{"ln":36,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":""}
+{"ln":37,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"# Python / notebooks (if you index here)"}
+{"ln":38,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":"__pycache__/"}
+{"ln":39,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":".ipynb_checkpoints/"}
+{"ln":40,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":".venv/"}
+{"ln":41,"path":"F:\\F Drive\\ResearchBase\\02_grammars\\README.md","text":""}
+{"ln":1,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"# 03 commentaries"}
+{"ln":2,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":""}
+{"ln":3,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"# Folder Guide"}
+{"ln":4,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":""}
+{"ln":5,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"- Purpose"}
+{"ln":6,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"- What belongs here"}
+{"ln":7,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"- Suggested sub-folders or prefixes"}
+{"ln":8,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"- Sample filenames"}
+{"ln":9,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":""}
+{"ln":10,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"**Naming:**"}
+{"ln":11,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"\u003cYYYY\u003e-\u003cAuthorSurname\u003e-\u003cShortTitle\u003e-\u003cEditionOrSeries\u003e-\u003cLangOrScope\u003e.\u003cext\u003e"}
+{"ln":12,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"Example: 1993-Wallace-GreekGrammarBeyondTheBasics-ExSyntax-GRC.pdf"}
+{"ln":13,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"\"@"}
+{"ln":14,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":""}
+{"ln":15,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":" = @\""}
+{"ln":16,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"# Large binaries"}
+{"ln":17,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"*.zip"}
+{"ln":18,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"*.7z"}
+{"ln":19,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"*.rar"}
+{"ln":20,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"*.tar"}
+{"ln":21,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"*.tar.gz"}
+{"ln":22,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"*.tgz"}
+{"ln":23,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"*.xz"}
+{"ln":24,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"*.zst"}
+{"ln":25,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":""}
+{"ln":26,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"# OS cruft"}
+{"ln":27,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":".DS_Store"}
+{"ln":28,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"Thumbs.db"}
+{"ln":29,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":""}
+{"ln":30,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"# Logs"}
+{"ln":31,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"*.log"}
+{"ln":32,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":""}
+{"ln":33,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"# Editor"}
+{"ln":34,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":".vscode/"}
+{"ln":35,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":".idea/"}
+{"ln":36,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":""}
+{"ln":37,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"# Python / notebooks (if you index here)"}
+{"ln":38,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":"__pycache__/"}
+{"ln":39,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":".ipynb_checkpoints/"}
+{"ln":40,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":".venv/"}
+{"ln":41,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\README.md","text":""}
+{"ln":1,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\NT\\README.md","text":"# NT Commentaries"}
+{"ln":2,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\NT\\README.md","text":""}
+{"ln":3,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\NT\\README.md","text":"Choose 1–2 technical + 1 pastoral set per active NT book. Keep to what you actually cite."}
+{"ln":4,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\NT\\README.md","text":""}
+{"ln":1,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\OT\\README.md","text":"# OT Commentaries"}
+{"ln":2,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\OT\\README.md","text":""}
+{"ln":3,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\OT\\README.md","text":"Choose 1–2 technical + 1 pastoral set per active OT book. Keep to what you actually cite."}
+{"ln":4,"path":"F:\\F Drive\\ResearchBase\\03_commentaries\\OT\\README.md","text":""}
+{"ln":1,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"# 04 background dictionaries"}
+{"ln":2,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":""}
+{"ln":3,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"# Folder Guide"}
+{"ln":4,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":""}
+{"ln":5,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"- Purpose"}
+{"ln":6,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"- What belongs here"}
+{"ln":7,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"- Suggested sub-folders or prefixes"}
+{"ln":8,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"- Sample filenames"}
+{"ln":9,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":""}
+{"ln":10,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"**Naming:**"}
+{"ln":11,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"\u003cYYYY\u003e-\u003cAuthorSurname\u003e-\u003cShortTitle\u003e-\u003cEditionOrSeries\u003e-\u003cLangOrScope\u003e.\u003cext\u003e"}
+{"ln":12,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"Example: 1993-Wallace-GreekGrammarBeyondTheBasics-ExSyntax-GRC.pdf"}
+{"ln":13,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"\"@"}
+{"ln":14,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":""}
+{"ln":15,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":" = @\""}
+{"ln":16,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"# Large binaries"}
+{"ln":17,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"*.zip"}
+{"ln":18,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"*.7z"}
+{"ln":19,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"*.rar"}
+{"ln":20,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"*.tar"}
+{"ln":21,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"*.tar.gz"}
+{"ln":22,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"*.tgz"}
+{"ln":23,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"*.xz"}
+{"ln":24,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"*.zst"}
+{"ln":25,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":""}
+{"ln":26,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"# OS cruft"}
+{"ln":27,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":".DS_Store"}
+{"ln":28,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"Thumbs.db"}
+{"ln":29,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":""}
+{"ln":30,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"# Logs"}
+{"ln":31,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"*.log"}
+{"ln":32,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":""}
+{"ln":33,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"# Editor"}
+{"ln":34,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":".vscode/"}
+{"ln":35,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":".idea/"}
+{"ln":36,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":""}
+{"ln":37,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"# Python / notebooks (if you index here)"}
+{"ln":38,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":"__pycache__/"}
+{"ln":39,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":".ipynb_checkpoints/"}
+{"ln":40,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":".venv/"}
+{"ln":41,"path":"F:\\F Drive\\ResearchBase\\04_background_dictionaries\\README.md","text":""}
+{"ln":1,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"# 05 textual criticism"}
+{"ln":2,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":""}
+{"ln":3,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"# Folder Guide"}
+{"ln":4,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":""}
+{"ln":5,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"- Purpose"}
+{"ln":6,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"- What belongs here"}
+{"ln":7,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"- Suggested sub-folders or prefixes"}
+{"ln":8,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"- Sample filenames"}
+{"ln":9,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":""}
+{"ln":10,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"**Naming:**"}
+{"ln":11,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"\u003cYYYY\u003e-\u003cAuthorSurname\u003e-\u003cShortTitle\u003e-\u003cEditionOrSeries\u003e-\u003cLangOrScope\u003e.\u003cext\u003e"}
+{"ln":12,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"Example: 1993-Wallace-GreekGrammarBeyondTheBasics-ExSyntax-GRC.pdf"}
+{"ln":13,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"\"@"}
+{"ln":14,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":""}
+{"ln":15,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":" = @\""}
+{"ln":16,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"# Large binaries"}
+{"ln":17,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"*.zip"}
+{"ln":18,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"*.7z"}
+{"ln":19,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"*.rar"}
+{"ln":20,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"*.tar"}
+{"ln":21,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"*.tar.gz"}
+{"ln":22,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"*.tgz"}
+{"ln":23,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"*.xz"}
+{"ln":24,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"*.zst"}
+{"ln":25,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":""}
+{"ln":26,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"# OS cruft"}
+{"ln":27,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":".DS_Store"}
+{"ln":28,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"Thumbs.db"}
+{"ln":29,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":""}
+{"ln":30,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"# Logs"}
+{"ln":31,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"*.log"}
+{"ln":32,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":""}
+{"ln":33,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"# Editor"}
+{"ln":34,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":".vscode/"}
+{"ln":35,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":".idea/"}
+{"ln":36,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":""}
+{"ln":37,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"# Python / notebooks (if you index here)"}
+{"ln":38,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":"__pycache__/"}
+{"ln":39,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":".ipynb_checkpoints/"}
+{"ln":40,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":".venv/"}
+{"ln":41,"path":"F:\\F Drive\\ResearchBase\\05_textual_criticism\\README.md","text":""}
+{"ln":1,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"# 06 discourse syntax"}
+{"ln":2,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":""}
+{"ln":3,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"# Folder Guide"}
+{"ln":4,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":""}
+{"ln":5,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"- Purpose"}
+{"ln":6,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"- What belongs here"}
+{"ln":7,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"- Suggested sub-folders or prefixes"}
+{"ln":8,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"- Sample filenames"}
+{"ln":9,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":""}
+{"ln":10,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"**Naming:**"}
+{"ln":11,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"\u003cYYYY\u003e-\u003cAuthorSurname\u003e-\u003cShortTitle\u003e-\u003cEditionOrSeries\u003e-\u003cLangOrScope\u003e.\u003cext\u003e"}
+{"ln":12,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"Example: 1993-Wallace-GreekGrammarBeyondTheBasics-ExSyntax-GRC.pdf"}
+{"ln":13,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"\"@"}
+{"ln":14,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":""}
+{"ln":15,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":" = @\""}
+{"ln":16,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"# Large binaries"}
+{"ln":17,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"*.zip"}
+{"ln":18,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"*.7z"}
+{"ln":19,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"*.rar"}
+{"ln":20,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"*.tar"}
+{"ln":21,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"*.tar.gz"}
+{"ln":22,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"*.tgz"}
+{"ln":23,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"*.xz"}
+{"ln":24,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"*.zst"}
+{"ln":25,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":""}
+{"ln":26,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"# OS cruft"}
+{"ln":27,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":".DS_Store"}
+{"ln":28,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"Thumbs.db"}
+{"ln":29,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":""}
+{"ln":30,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"# Logs"}
+{"ln":31,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"*.log"}
+{"ln":32,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":""}
+{"ln":33,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"# Editor"}
+{"ln":34,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":".vscode/"}
+{"ln":35,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":".idea/"}
+{"ln":36,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":""}
+{"ln":37,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"# Python / notebooks (if you index here)"}
+{"ln":38,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":"__pycache__/"}
+{"ln":39,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":".ipynb_checkpoints/"}
+{"ln":40,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":".venv/"}
+{"ln":41,"path":"F:\\F Drive\\ResearchBase\\06_discourse_syntax\\README.md","text":""}
+{"ln":1,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"# 07 journals"}
+{"ln":2,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":""}
+{"ln":3,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"# Folder Guide"}
+{"ln":4,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":""}
+{"ln":5,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"- Purpose"}
+{"ln":6,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"- What belongs here"}
+{"ln":7,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"- Suggested sub-folders or prefixes"}
+{"ln":8,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"- Sample filenames"}
+{"ln":9,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":""}
+{"ln":10,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"**Naming:**"}
+{"ln":11,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"\u003cYYYY\u003e-\u003cAuthorSurname\u003e-\u003cShortTitle\u003e-\u003cEditionOrSeries\u003e-\u003cLangOrScope\u003e.\u003cext\u003e"}
+{"ln":12,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"Example: 1993-Wallace-GreekGrammarBeyondTheBasics-ExSyntax-GRC.pdf"}
+{"ln":13,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"\"@"}
+{"ln":14,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":""}
+{"ln":15,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":" = @\""}
+{"ln":16,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"# Large binaries"}
+{"ln":17,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"*.zip"}
+{"ln":18,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"*.7z"}
+{"ln":19,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"*.rar"}
+{"ln":20,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"*.tar"}
+{"ln":21,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"*.tar.gz"}
+{"ln":22,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"*.tgz"}
+{"ln":23,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"*.xz"}
+{"ln":24,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"*.zst"}
+{"ln":25,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":""}
+{"ln":26,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"# OS cruft"}
+{"ln":27,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":".DS_Store"}
+{"ln":28,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"Thumbs.db"}
+{"ln":29,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":""}
+{"ln":30,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"# Logs"}
+{"ln":31,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"*.log"}
+{"ln":32,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":""}
+{"ln":33,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"# Editor"}
+{"ln":34,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":".vscode/"}
+{"ln":35,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":".idea/"}
+{"ln":36,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":""}
+{"ln":37,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"# Python / notebooks (if you index here)"}
+{"ln":38,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":"__pycache__/"}
+{"ln":39,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":".ipynb_checkpoints/"}
+{"ln":40,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":".venv/"}
+{"ln":41,"path":"F:\\F Drive\\ResearchBase\\07_journals\\README.md","text":""}
+{"ln":1,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"# 08 notes highlights"}
+{"ln":2,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":""}
+{"ln":3,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"# Folder Guide"}
+{"ln":4,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":""}
+{"ln":5,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"- Purpose"}
+{"ln":6,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"- What belongs here"}
+{"ln":7,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"- Suggested sub-folders or prefixes"}
+{"ln":8,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"- Sample filenames"}
+{"ln":9,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":""}
+{"ln":10,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"**Naming:**"}
+{"ln":11,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"\u003cYYYY\u003e-\u003cAuthorSurname\u003e-\u003cShortTitle\u003e-\u003cEditionOrSeries\u003e-\u003cLangOrScope\u003e.\u003cext\u003e"}
+{"ln":12,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"Example: 1993-Wallace-GreekGrammarBeyondTheBasics-ExSyntax-GRC.pdf"}
+{"ln":13,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"\"@"}
+{"ln":14,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":""}
+{"ln":15,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":" = @\""}
+{"ln":16,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"# Large binaries"}
+{"ln":17,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"*.zip"}
+{"ln":18,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"*.7z"}
+{"ln":19,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"*.rar"}
+{"ln":20,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"*.tar"}
+{"ln":21,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"*.tar.gz"}
+{"ln":22,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"*.tgz"}
+{"ln":23,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"*.xz"}
+{"ln":24,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"*.zst"}
+{"ln":25,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":""}
+{"ln":26,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"# OS cruft"}
+{"ln":27,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":".DS_Store"}
+{"ln":28,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"Thumbs.db"}
+{"ln":29,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":""}
+{"ln":30,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"# Logs"}
+{"ln":31,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"*.log"}
+{"ln":32,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":""}
+{"ln":33,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"# Editor"}
+{"ln":34,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":".vscode/"}
+{"ln":35,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":".idea/"}
+{"ln":36,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":""}
+{"ln":37,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"# Python / notebooks (if you index here)"}
+{"ln":38,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":"__pycache__/"}
+{"ln":39,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":".ipynb_checkpoints/"}
+{"ln":40,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":".venv/"}
+{"ln":41,"path":"F:\\F Drive\\ResearchBase\\08_notes_highlights\\README.md","text":""}
+{"ln":1,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"# 09 datasets indices"}
+{"ln":2,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":""}
+{"ln":3,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"# Folder Guide"}
+{"ln":4,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":""}
+{"ln":5,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"- Purpose"}
+{"ln":6,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"- What belongs here"}
+{"ln":7,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"- Suggested sub-folders or prefixes"}
+{"ln":8,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"- Sample filenames"}
+{"ln":9,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":""}
+{"ln":10,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"**Naming:**"}
+{"ln":11,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"\u003cYYYY\u003e-\u003cAuthorSurname\u003e-\u003cShortTitle\u003e-\u003cEditionOrSeries\u003e-\u003cLangOrScope\u003e.\u003cext\u003e"}
+{"ln":12,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"Example: 1993-Wallace-GreekGrammarBeyondTheBasics-ExSyntax-GRC.pdf"}
+{"ln":13,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"\"@"}
+{"ln":14,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":""}
+{"ln":15,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":" = @\""}
+{"ln":16,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"# Large binaries"}
+{"ln":17,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"*.zip"}
+{"ln":18,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"*.7z"}
+{"ln":19,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"*.rar"}
+{"ln":20,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"*.tar"}
+{"ln":21,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"*.tar.gz"}
+{"ln":22,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"*.tgz"}
+{"ln":23,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"*.xz"}
+{"ln":24,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"*.zst"}
+{"ln":25,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":""}
+{"ln":26,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"# OS cruft"}
+{"ln":27,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":".DS_Store"}
+{"ln":28,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"Thumbs.db"}
+{"ln":29,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":""}
+{"ln":30,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"# Logs"}
+{"ln":31,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"*.log"}
+{"ln":32,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":""}
+{"ln":33,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"# Editor"}
+{"ln":34,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":".vscode/"}
+{"ln":35,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":".idea/"}
+{"ln":36,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":""}
+{"ln":37,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"# Python / notebooks (if you index here)"}
+{"ln":38,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":"__pycache__/"}
+{"ln":39,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":".ipynb_checkpoints/"}
+{"ln":40,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":".venv/"}
+{"ln":41,"path":"F:\\F Drive\\ResearchBase\\09_datasets_indices\\README.md","text":""}

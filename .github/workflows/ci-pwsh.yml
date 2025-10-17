@@ -1,0 +1,17 @@
+﻿name: build-and-test-pwsh
+on:
+  push: { branches: [ main ] }
+  pull_request: { branches: [ main ] }
+jobs:
+  pwsh:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run smoke tests (if present)
+        shell: pwsh
+        run: |
+          if (Test-Path "tests/Smoke.Tests.ps1") {
+            pwsh -File tests/Smoke.Tests.ps1
+          } else {
+            Write-Host "No smoke tests found — skipping"
+          }

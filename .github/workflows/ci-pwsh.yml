@@ -1,9 +1,9 @@
-ï»¿name: build-and-test-pwsh
+name: build-and-test-pwsh
 on:
   push:
-    branches: [ main ]
+    branches: [ "**" ]
   pull_request:
-    branches: [ main ]
+    branches: [ "**" ]
 
 jobs:
   pwsh:
@@ -17,7 +17,7 @@ jobs:
           if (Test-Path "tests/Smoke.Tests.ps1") {
             pwsh -File tests/Smoke.Tests.ps1
           } else {
-            Write-Host "No smoke tests found â€” skipping"
+            Write-Host "No smoke tests found — skipping"
           }
 
       - name: Run Pester tests (if present)
@@ -29,5 +29,5 @@ jobs:
           if (Test-Path "tests") {
             Invoke-Pester -CI -Path tests -ErrorAction Stop
           } else {
-            Write-Host "No tests folder â€” skipping Pester"
+            Write-Host "No tests folder — skipping Pester"
           }
